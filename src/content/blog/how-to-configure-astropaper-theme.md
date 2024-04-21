@@ -11,7 +11,6 @@ tags:
   - docs
 description: How you can make AstroPaper theme absolutely yours.
 ---
-
 AstroPaper is a highly customizable Astro blog theme. With AstroPaper, you can customize everything according to your personal taste. This article will explain how you can make some customizations easily in the config file.
 
 ## Table of contents
@@ -19,6 +18,18 @@ AstroPaper is a highly customizable Astro blog theme. With AstroPaper, you can c
 ## Configuring SITE
 
 The important configurations lies in `src/config.ts` file. Within that file, you'll see the `SITE` object where you can specify your website's main configurations.
+
+```
+<iframe
+  width="640"
+  height="480"
+  src="https://youtu.be/r6gy0m86j34?si=k8V1VkEdq8f_i5wd"
+  frameborder="0"
+  allow="autoplay; encrypted-media"
+  allowfullscreen
+>
+</iframe>
+```
 
 During deveopment, it's okay to leave `SITE.website` empty. But in production mode, you should specify your deployed url in `SITE.website` option since this will be used for canonical URL, social card URL etc.. which are important for SEO.
 
@@ -38,16 +49,7 @@ export const SITE = {
 
 Here are SITE configuration options
 
-| Options               | Description                                                                                                                                                                                                                                         |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `website`             | Your deployed website url                                                                                                                                                                                                                           |
-| `author`              | Your name                                                                                                                                                                                                                                           |
-| `desc`                | Your site description. Useful for SEO and social media sharing.                                                                                                                                                                                     |
-| `title`               | Your site name                                                                                                                                                                                                                                      |
-| `ogImage`             | Your default OG image for the site. Useful for social media sharing. OG images can be an external image url or they can be placed under `/public` directory.                                                                                        |
-| `lightAndDarkMode`    | Enable or disable `light & dark mode` for the website. If disabled, primary color scheme will be used. This option is enabled by default.                                                                                                           |
-| `postPerPage`         | You can specify how many posts will be displayed in each posts page. (eg: if you set SITE.postPerPage to 3, each page will only show 3 posts per page)                                                                                              |
-| `scheduledPostMargin` | In Production mode, posts with a future `pubDatetime` will not be visible. However, if a post's `pubDatetime` is within the next 15 minutes, it will be visible. You can set `scheduledPostMargin` if you don't like the default 15 minutes margin. |
+<table style="minWidth: 50px"><colgroup><col><col></colgroup><tbody><tr><th colspan="1" rowspan="1"><p>Options</p></th><th colspan="1" rowspan="1"><p>Description</p></th></tr><tr><td colspan="1" rowspan="1"><p><code>website</code></p></td><td colspan="1" rowspan="1"><p>Your deployed website url</p></td></tr><tr><td colspan="1" rowspan="1"><p><code>author</code></p></td><td colspan="1" rowspan="1"><p>Your name</p></td></tr><tr><td colspan="1" rowspan="1"><p><code>desc</code></p></td><td colspan="1" rowspan="1"><p>Your site description. Useful for SEO and social media sharing.</p></td></tr><tr><td colspan="1" rowspan="1"><p><code>title</code></p></td><td colspan="1" rowspan="1"><p>Your site name</p></td></tr><tr><td colspan="1" rowspan="1"><p><code>ogImage</code></p></td><td colspan="1" rowspan="1"><p>Your default OG image for the site. Useful for social media sharing. OG images can be an external image url or they can be placed under <code>/public</code> directory.</p></td></tr><tr><td colspan="1" rowspan="1"><p><code>lightAndDarkMode</code></p></td><td colspan="1" rowspan="1"><p>Enable or disable <code>light &amp; dark mode</code> for the website. If disabled, primary color scheme will be used. This option is enabled by default.</p></td></tr><tr><td colspan="1" rowspan="1"><p><code>postPerPage</code></p></td><td colspan="1" rowspan="1"><p>You can specify how many posts will be displayed in each posts page. (eg: if you set SITE.postPerPage to 3, each page will only show 3 posts per page)</p></td></tr><tr><td colspan="1" rowspan="1"><p><code>scheduledPostMargin</code></p></td><td colspan="1" rowspan="1"><p>In Production mode, posts with a future <code>pubDatetime</code> will not be visible. However, if a post's <code>pubDatetime</code> is within the next 15 minutes, it will be visible. You can set <code>scheduledPostMargin</code> if you don't like the default 15 minutes margin.</p></td></tr></tbody></table>
 
 ## Configuring locale
 
@@ -61,8 +63,7 @@ export const LOCALE = {
 } as const;
 ```
 
-`LOCALE.lang` will be used as HTML ISO Language code in `<html lang="en">`. If you don't specify this, default fallback will be set to `en`.
-`LOCALE.langTag` is used as [datetime locale](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString#locales). For this, you can specify an array of locales for fallback languages. Leave `LOCALE.langTag` empty `[]` to use the environment default at _build-_ and _run-time_.
+`LOCALE.lang` will be used as HTML ISO Language code in `<html lang="en">`. If you don't specify this, default fallback will be set to `en`. `LOCALE.langTag` is used as [datetime locale](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString#locales). For this, you can specify an array of locales for fallback languages. Leave `LOCALE.langTag` empty `[]` to use the environment default at _build-_ and _run-time_.
 
 ## Configuring logo or title
 
