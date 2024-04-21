@@ -15,21 +15,11 @@ AstroPaper is a highly customizable Astro blog theme. With AstroPaper, you can c
 
 ## Table of contents
 
+\[!\[\]([https://markdown-videos-api.jorgenkh.no/youtube/{video\_id})\](https://youtu.be/r6gy0m86j34?si=k8V1VkEdq8f\_i5wd})](https://markdown-videos-api.jorgenkh.no/youtube/{video_id})](https://youtu.be/r6gy0m86j34?si=k8V1VkEdq8f_i5wd}))
+
 ## Configuring SITE
 
 The important configurations lies in `src/config.ts` file. Within that file, you'll see the `SITE` object where you can specify your website's main configurations.
-
-```
-<iframe
-  width="640"
-  height="480"
-  src="https://youtu.be/r6gy0m86j34?si=k8V1VkEdq8f_i5wd"
-  frameborder="0"
-  allow="autoplay; encrypted-media"
-  allowfullscreen
->
-</iframe>
-```
 
 During deveopment, it's okay to leave `SITE.website` empty. But in production mode, you should specify your deployed url in `SITE.website` option since this will be used for canonical URL, social card URL etc.. which are important for SEO.
 
