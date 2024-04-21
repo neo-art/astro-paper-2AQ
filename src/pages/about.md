@@ -10,7 +10,7 @@ This theme is aimed to be accessible out of the box. Light and dark mode are sup
 
 This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
 
-\[!\[\]([https://markdown-videos-api.jorgenkh.no/youtube/{video\_id})\](https://youtu.be/r6gy0m86j34?si=k8V1VkEdq8f\_i5wd})](https://markdown-videos-api.jorgenkh.no/youtube/%7Bvideo_id%7D)\]([https://youtu.be/r6gy0m86j34?si=k8V1VkEdq8f\_i5wd}](https://youtu.be/r6gy0m86j34?si=k8V1VkEdq8f_i5wd%7D)))
+\[!\[IMAGE ALT TEXT HERE\]([https://img.youtube.com/vi/k8V1VkEdq8f\_i5wd/0.jpg)\](https://www.youtube.com/watch?v=k8V1VkEdq8f\_i5wd)](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=k8V1VkEdq8f_i5wd))
 
 <img src="/assets/dev.svg" alt="coding dev illustration" class="sm:w-1/2 mx-auto">
 
