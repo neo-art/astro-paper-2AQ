@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  website: "https://astro-paper-2aquarius.pages.dev/", // replace this with your deployed domain
+  author: "Two Aquarius in the Alps",
+  desc: "We are Milen and Deyana - two Aquarius in the Alps.",
+  title: "Two Aquarius in the Alps",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -32,13 +32,13 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://facebook.com/TwoAquariusintheAlps",
     linkTitle: `${SITE.title} on Facebook`,
     active: true,
   },
   {
     name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://instagram.com/two_aquarius_in_the_alps",
     linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
@@ -56,7 +56,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://twitter.com/DeyanaDeco",
     linkTitle: `${SITE.title} on Twitter`,
     active: false,
   },
@@ -68,7 +68,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "YouTube",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.youtube.com/@TwoAquariusintheAlps",
     linkTitle: `${SITE.title} on YouTube`,
     active: false,
   },
@@ -92,7 +92,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "TikTok",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://tiktok.com/@two.aquarius",
     linkTitle: `${SITE.title} on TikTok`,
     active: false,
   },
