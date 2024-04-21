@@ -10,12 +10,6 @@ This theme is aimed to be accessible out of the box. Light and dark mode are sup
 
 This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/r6gy0m86j34?si=UqwJFMicNRELzqBy](https://www.youtube.com/embed/r6gy0m86j34?si=UqwJFMicNRELzqBy)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Test embed:
-
-<iframe src="[https://www.youtube.com/embed/r6gy0m86j34?si=UqwJFMicNRELzqBy](https://www.youtube.com/embed/r6gy0m86j34?si=UqwJFMicNRELzqBy)" frameborder="0" allowfullscreen></iframe>
-
 <img src="/assets/dev.svg" alt="coding dev illustration" class="sm:w-1/2 mx-auto">
 
 ## Tech Stack
