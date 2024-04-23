@@ -24,14 +24,4 @@ We're posting regular updates for our gardening, so if you don't want to miss an
 
 Happy sowing and growing! 🙂
 
-```
-<iframe
-  width="640"
-  height="480"
-  src="https://youtu.be/r6gy0m86j34?si=k8V1VkEdq8f_i5wd"
-  frameborder="0"
-  allow="autoplay; encrypted-media"
-  allowfullscreen
->
-</iframe>
-```
+\[!\[IMAGE ALT TEXT HERE\]([https://img.youtube.com/vi/6XzyobQYQVQ/0.jpg)\](https://www.youtube.com/watch?v=6XzyobQYQVQ)](https://img.youtube.com/vi/6XzyobQYQVQ/0.jpg)](https://www.youtube.com/watch?v=6XzyobQYQVQ))
