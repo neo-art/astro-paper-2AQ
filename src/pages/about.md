@@ -8,7 +8,9 @@ Visit our channel to watch full videos:
 
 This theme is aimed to be accessible out of the box. Light and dark mode are supported by default and additional color schemes can also be configured.
 
-\[!\[IMAGE ALT TEXT HERE\]([https://img.youtube.com/vi/6XzyobQYQVQ/0.jpg)\](https://www.youtube.com/watch?v=6XzyobQYQVQ)](https://img.youtube.com/vi/6XzyobQYQVQ/0.jpg)](https://www.youtube.com/watch?v=6XzyobQYQVQ))
+<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/r6gy0m86j34?si=UqwJFMicNRELzqBy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+\[!\[IMAGE ALT TEXT HERE\]([https://img.youtube.com/vi/6XzyobQYQVQ/0.jpg)\](https://www.youtube.com/watch?v=6XzyobQYQVQ)](https://img.youtube.com/vi/6XzyobQYQVQ/0.jpg)\]([https://www.youtube.com/watch?v=6XzyobQYQVQ](https://www.youtube.com/watch?v=6XzyobQYQVQ)))
 
 This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
 
